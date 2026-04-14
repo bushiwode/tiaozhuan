@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home">
+    <meta name="keywords" content="Homepage">
+    <meta name="author" content="bushiwode">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/onlinewebfonts.css"/>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/vno.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/iconfont.css">
+    <link rel="apple-touch-icon" href="https://unpkg.com/dmego-home-page@latest/apple-touch-icon.png">
+    <link rel="icon" href="./favicon.ico">
+
+    <style>
+        /* 设置 header 的背景图片 */
+        #panel {
+            background-image: url('https://pic.lpzk.cc/HFmIGE.jpg'); /* 替换为你的图片 URL */
+            background-size: cover; /* 图片覆盖整个区域 */
+            background-position: center; /* 图片居中 */
+            position: relative; /* 使绝对定位的子元素相对于这个元素定位 */
+        }
+
+        /* 增加一个覆盖层，设置透明度 */
+        .panel-cover--overlay {
+            position: absolute; /* 绝对定位以覆盖整个父元素 */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.8); /* 黑色背景，透明度为 0.2 (80% 淡化) */
+        }
+    </style>
+</head>
+
+<body>
+    <span class="mobile btn-mobile-menu">
+        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
+        <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
+    </span>
+    <header id="panel" class="panel-cover">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content">
+                    <div class="ih-item circle effect right_to_left">            
+                        <a href="#" title="" class="blog-button">
+                            <div class="img"><img src="https://pic.lpzk.cc/KP2Q1D.jpg" alt="img" class="js-avatar iUp profilepic"></div>
+                            <div class="info iUp">
+                                <div class="info-back">
+                                    <h2> 
+                                            Fighting
+                                    </h2>
+                                    <p>
+                                            2025 · 突破
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <h1 class="panel-cover__title panel-title iUp">
+                        <a href="#" title="不是我的 Home">不是我的</a>
+                    </h1>
+                    <p class="panel-cover__subtitle panel-subtitle iUp">等不是办法，干才有希望</p>
+
+                    <hr class="panel-cover__divider iUp" />
+                    <p class="panel-cover__subtitle panel-subtitle iUp">个人小站，维护精力有限，如有兴趣欢迎联系
+                        <br/>
+                        <strong>仅供学习使用，请遵守相关法律法规</strong>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="panel-cover--overlay cover-slate"></div>
+
+    <script type="text/javascript" src="https://unpkg.com/dmego-home-page@latest/assets/js/main.js"></script>
+
+</body>
+</html>
